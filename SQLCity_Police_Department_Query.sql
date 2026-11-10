@@ -28,10 +28,6 @@ WHERE d.gender = 'female'
 GROUP BY p.id, p.name
 HAVING COUNT(*) = 3;
 
-SELECT * FROM person
-SELECT * FROM income
-SELECT * FROM get_fit_now_check_in
-
 -- Miranda Priestly with the ID 99716 hired Jeremy Bowers.
 
 -- Question 2: Who are the top 20 earners in the city?
